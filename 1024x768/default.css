@@ -1,0 +1,55 @@
+/**
+ *
+ * Typical stuff that will be changed. These are sane defaults
+ * for multiple OSs that want a Lucida look.
+ *
+ */
+
+body, input {
+	font-family: 'Lucida Grande', 'Tahoma', 'Arial', 
+							 'Liberation Sans', 'Droid Sans', 
+							 'Roboto', sans-serif;
+}
+
+/**
+ *
+ * Common practical behaviour stuff
+ *
+ */
+
+table {
+	table-layout: fixed;
+}
+
+td {
+	word-break: break-word;
+}
+
+/**
+ *
+ * This is the main wrapper,for 1024x768 resolution.
+ * This is mainly to center while minding things like browser slide bars.
+ *
+ */
+
+#wrapper {
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+/**
+ *
+ * Inside centered frame
+ * It has some margins, even 
+ * when in smaller screens.
+ *
+ */
+
+#mainframe {
+	width: 955px;
+	margin-left: 17px;
+	margin-right: 18px;
+	position: relative;
+}
